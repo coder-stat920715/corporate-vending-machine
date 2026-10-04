@@ -1,0 +1,6 @@
+package com.corporate.vending.domain;
+
+public enum VendingEvent {
+    SELECT_ITEM, INITIATE_PAYMENT, PAYMENT_SUCCESS, PAYMENT_FAILED,
+    DROP_CONFIRMED, DROP_FAILED, REFUND_DONE, TIMEOUT, MACHINE_FAULT, RESET
+}
